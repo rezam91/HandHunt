@@ -1,3 +1,13 @@
-:root {
+* {
+  box-sizing: border-box;
+}
+body {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background-color: #FFB347 ;
+  color: #5C4033;
+  text-align: center;
+}
+.logo {
+  width: 250px;
+  border-radius: 12px;
 }
