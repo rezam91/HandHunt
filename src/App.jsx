@@ -4,7 +4,7 @@ import GameNumber from './components/general/gamenumber/index'
 import { useState } from 'react'
 
 const App = () => {
-  const [handNumber,SetNumber] = useState(1)
+  const [handNumber,SetNumber] = useState(2)
   const ChangeNumber = (changedVar) => {
     SetNumber(changedVar)
   }

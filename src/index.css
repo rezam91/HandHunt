@@ -46,6 +46,16 @@ body {
 
 .warning-sign {
   margin-top: 20px;
+  margin-bottom: 20px;
   font-size: 24px;
   font-weight: 600;
+}
+
+.player-point, .total-played {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
