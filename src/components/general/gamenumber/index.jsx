@@ -12,7 +12,7 @@ const GameNumber = ({onChangeNumber}) => {
     return (
         <div>
             <form className="hand--number" onSubmit={submitHandNumber}>
-                <span>Hand Number: </span>
+                <span>Hand Count: </span>
                 <input placeholder="How Many People?" type='number' onChange={counter}/>
                 <button type="submit">OK</button>
             </form>

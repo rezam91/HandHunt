@@ -3,7 +3,6 @@ const Game = () => {
     return (
         <>
             <img className='fist--sign' src={fistPath} />
-            <img className='fist--sign' src={fistPath} />
         </>
     )
 }
