@@ -1,12 +1,20 @@
 import Handhunt from './components/handhunt/index'
 import Logo from './components/general/logo/index'
-const App = () => {
+import GameNumber from './components/general/gamenumber/index'
+import { useState } from 'react'
 
+const App = () => {
+  const [handNumber,SetNumber] = useState(1)
+  const ChangeNumber = (changedVar) => {
+    SetNumber(changedVar)
+  }
   return (
     <>
       <h1>Welcome to Handhunt Game!</h1>
       <Logo />
-      <Handhunt />
+      <GameNumber onChangeNumber={ChangeNumber} />
+      <Handhunt gameNum={handNumber} />
+
     </>
   )
 }

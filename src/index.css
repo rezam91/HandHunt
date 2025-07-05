@@ -11,3 +11,22 @@ body {
   width: 250px;
   border-radius: 12px;
 }
+.hand--number {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.each-game {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content:space-evenly;
+}
+.each-game li {
+  display: flex;
+  gap: 15px;
+}
+.fist--sign {
+  width: 40px;
+}
