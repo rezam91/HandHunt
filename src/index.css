@@ -38,16 +38,23 @@ body {
   margin-left: auto;
   margin-right: auto;
   background-color: rgba(255, 0, 0, 0.43);
-  border: 1px solid black;
+  border: 2px solid black;
   border-radius: 12px;
   list-style: none;
-  padding: 20px 0;
+  padding: 20px 10px;
   display: flex;
   gap: 50px;
 }
 .each-game li {
+  background-color: rgba(255, 0, 0, 0.43);
+  border-radius: 5px;
+  padding: 4px;
   display: flex;
   gap: 15px;
+  transition: all 0.3s ease-in-out;
+}
+.each-game li:hover {
+  background-color: #A020F0;
 }
 .fist--sign {
   width: 40px;

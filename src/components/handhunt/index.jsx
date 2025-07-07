@@ -31,6 +31,7 @@ const Handhunt = ({gameNum}) => {
             <div className='player-point'>
                 <span>Player Point</span><span>{totalWins}</span>
             </div>
+            
             <div className='total-played'>
                 <span>Total Played</span><span>{totalGames}</span>
             </div>
