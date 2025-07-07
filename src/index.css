@@ -15,11 +15,18 @@ body {
   width: 250px;
   border-radius: 12px;
 }
+.player--info {
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
 .hand--number {
   display: flex;
   gap: 20px;
   align-items: center;
   justify-content: center;
+  /* margin-bottom: 10px; */
 }
 .ok--button {
     background-color: #28A745;

@@ -2,6 +2,8 @@ import Handhunt from './components/handhunt/index'
 import Logo from './components/general/logo/index'
 import GameNumber from './components/general/gamenumber/index'
 import RefreshButton from './components/general/layout/refresh/refresh'
+import PlayerInfo from './components/general/layout/playerInfo'
+
 import { useEffect, useState } from 'react'
 
 const App = () => {
@@ -14,8 +16,9 @@ const App = () => {
   },[])
   return (
     <>
-      <h1>Welcome to Handhunt Game!</h1>
+      <h1>Handhunt Game!</h1>
       <Logo />
+      <PlayerInfo />
       <GameNumber onChangeNumber={ChangeNumber} />
       <Handhunt gameNum={handNumber} />
       <RefreshButton />
